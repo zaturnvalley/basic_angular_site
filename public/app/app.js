@@ -11,5 +11,10 @@
         templateUrl: 'app/pages/home/home.html',
         controller: 'HomeCtrl as vm'
       })
+      .state('about', {
+        url: '/about',
+        templateUrl: 'app/pages/about/about.html',
+        controller: 'AboutCtrl as vm'
+      })
     }])
 })()
