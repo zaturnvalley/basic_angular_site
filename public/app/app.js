@@ -3,7 +3,7 @@
 
   app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', '$httpProvider',
     function(($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider){
-      $urlRouterProvider.otherwise('/home');
+      $urlRouterProvider.otherwise('/');
 
       $stateProvider
       .state('home', {
